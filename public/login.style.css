@@ -111,6 +111,6 @@ body{
 #login-error-text{
     margin: 0px;
     padding-top: 6px;
-    font-weight: 500;
+    font-weight: 300;
     color: red;
 }
