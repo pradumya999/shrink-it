@@ -316,3 +316,278 @@ body{
 #qrcode-img{
     padding: 9px 40px 6px 0px;
 }
+
+@media (max-width: 1200px) {
+    .dashboard{
+        padding: 10px 100px;
+    }
+    
+    .user-input-tab{
+        margin-left: 300px;
+        margin-right: 300px;
+    }
+}
+
+@media (max-width: 992px) {
+    .dashboard{
+        padding: 10px 60px;
+    }
+    
+    #dashboard-branding-text{
+        font-size: 18px;
+    }
+    
+    #dashboard-linkedin-text{
+        font-size: 16px;
+    }
+    
+    #dashboard-github-text{
+        font-size: 16px;
+    }
+    
+    .signUp-button{
+        font-size: 18px;
+    }
+    
+    .login-button{
+        font-size: 18px;
+    }
+    
+    .logout-button{
+        font-size: 18px;
+    }
+    
+    #main-heading{
+        font-size: 90px;
+    }
+    
+    .user-input-tab{
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+    
+    #newURL-input{
+        width: 250px;
+    }
+}
+
+@media (max-width: 768px) {
+    .dashboard{
+        padding: 10px 30px;
+        flex-wrap: wrap;
+    }
+    
+    .dashboard-branding{
+        width: 100%;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+    
+    .dashboard-linkedin{
+        flex: 1;
+        justify-content: center;
+    }
+    
+    .dashboard-github{
+        flex: 1;
+        justify-content: center;
+    }
+    
+    .dashboard-buttons{
+        width: 100%;
+        justify-content: center;
+        margin-top: 10px;
+    }
+    
+    #dashboard-linkedin-logo{
+        margin: 23px 5px 16px 15px;
+    }
+    
+    #dashboard-github-logo{
+        margin: 23px 5px 16px 15px;
+    }
+    
+    #main-heading{
+        font-size: 70px;
+    }
+    
+    .user-input-tab{
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    
+    #newURL-input{
+        width: 200px;
+    }
+    
+    #newURL-button{
+        padding: 3px 25px 9px 25px;
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 576px) {
+    .dashboard{
+        padding: 10px 20px;
+    }
+    
+    #dashboard-branding-logo{
+        padding: 5px 2px;
+        width: 40px;
+        height: auto;
+    }
+    
+    #dashboard-branding-text{
+        font-size: 16px;
+    }
+    
+    #dashboard-linkedin-text{
+        font-size: 14px;
+    }
+    
+    #dashboard-github-text{
+        font-size: 14px;
+    }
+    
+    .signUp-button{
+        font-size: 16px;
+        padding: 12px 2px 2px 5px;
+    }
+    
+    .login-button{
+        font-size: 16px;
+        padding: 12px 5px 2px 5px;
+    }
+    
+    .logout-button{
+        font-size: 16px;
+        padding: 12px 0px 2px 8px;
+    }
+    
+    #main-heading{
+        font-size: 50px;
+        padding-top: 20px;
+    }
+    
+    .user-input-tab{
+        margin-left: 20px;
+        margin-right: 20px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+    
+    #newURL-input{
+        width: 100%;
+        max-width: 250px;
+        margin-bottom: 10px;
+        margin-right: 0px;
+    }
+    
+    #newURL-button{
+        padding: 3px 20px 9px 20px;
+        font-size: 16px;
+        width: 100%;
+        max-width: 250px;
+    }
+    
+    .short-url{
+        flex-direction: column;
+        align-items: center;
+        padding-left: 5px;
+    }
+    
+    .response{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .functions{
+        justify-content: center;
+    }
+    
+    #url-text{
+        font-size: 20px;
+        padding: 8px 5px;
+    }
+    
+    #url-link{
+        padding-top: 10px;
+    }
+    
+    #shrinked-url{
+        font-size: 14px;
+    }
+    
+    #copy-url-img{
+        padding: 8px 20px;
+    }
+    
+    #qrcode-img{
+        padding: 7px 20px 5px 0px;
+    }
+}
+
+@media (max-width: 400px) {
+    .dashboard{
+        padding: 10px 15px;
+    }
+    
+    #dashboard-branding-logo{
+        width: 35px;
+    }
+    
+    #dashboard-branding-text{
+        font-size: 14px;
+    }
+    
+    #dashboard-linkedin-text{
+        font-size: 12px;
+    }
+    
+    #dashboard-github-text{
+        font-size: 12px;
+    }
+    
+    #dashboard-linkedin-logo{
+        margin: 23px 3px 16px 10px;
+    }
+    
+    #dashboard-github-logo{
+        margin: 23px 3px 16px 10px;
+    }
+    
+    .signUp-button{
+        font-size: 14px;
+    }
+    
+    .login-button{
+        font-size: 14px;
+    }
+    
+    .logout-button{
+        font-size: 14px;
+    }
+    
+    #main-heading{
+        font-size: 40px;
+    }
+    
+    .user-input-tab{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    
+    #newURL-input{
+        max-width: 220px;
+        font-size: 14px;
+    }
+    
+    #newURL-button{
+        max-width: 220px;
+        font-size: 14px;
+    }
+    
+    #url-text{
+        font-size: 18px;
+    }
+}

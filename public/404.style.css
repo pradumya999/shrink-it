@@ -161,3 +161,207 @@ body{
     line-height: 0px;
     text-align: center;
 }
+
+@media (max-width: 1200px) {
+    .dashboard{
+        padding: 0px 80px;
+    }
+    
+    .footer{
+        padding: 25px 80px 0px 80px;
+    }
+    
+    #main-heading{
+        font-size: 120px;
+    }
+}
+
+@media (max-width: 992px) {
+    .dashboard{
+        padding: 0px 50px;
+    }
+    
+    #dashboard-text{
+        font-size: 30px;
+    }
+    
+    #dashboard-linkedin-logo{
+        margin: 40px 0px 35px 30px;
+    }
+    
+    #dashboard-linkedin-text{
+        font-size: 22px;
+    }
+    
+    #dashboard-github-logo{
+        margin: 40px 0px 35px 20px;
+    }
+    
+    #dashboard-github-text{
+        font-size: 22px;
+    }
+    
+    #main-heading{
+        font-size: 100px;
+    }
+    
+    #sec-heading{
+        font-size: 22px;
+    }
+    
+    .footer{
+        padding: 25px 50px 0px 50px;
+    }
+}
+
+@media (max-width: 768px) {
+    .dashboard{
+        padding: 0px 30px;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .branding{
+        margin-bottom: 10px;
+    }
+    
+    #dashboard-text{
+        font-size: 28px;
+    }
+    
+    .links{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #dashboard-linkedin-logo{
+        margin: 20px 0px 20px 0px;
+    }
+    
+    #dashboard-linkedin-text{
+        margin: 15px 0px 15px 0px;
+        font-size: 20px;
+    }
+    
+    #dashboard-github-logo{
+        margin: 20px 0px 20px 0px;
+    }
+    
+    #dashboard-github-text{
+        margin: 15px 0px 15px 0px;
+        font-size: 20px;
+    }
+    
+    #main-heading{
+        font-size: 80px;
+    }
+    
+    #sec-heading{
+        font-size: 20px;
+    }
+    
+    #third-heading{
+        font-size: 16px;
+        padding: 15px 20px 30px;
+    }
+    
+    #homepage-button{
+        padding: 5px 40px 9px 40px;
+        font-size: 18px;
+    }
+    
+    .footer{
+        flex-direction: column;
+        padding: 25px 30px 0px 30px;
+    }
+    
+    .footer > div {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 576px) {
+    .dashboard{
+        padding: 0px 20px;
+    }
+    
+    #dashboard-logo{
+        padding: 8px 0px;
+        width: 50px;
+        height: auto;
+    }
+    
+    #dashboard-text{
+        font-size: 24px;
+    }
+    
+    #dashboard-linkedin-text{
+        font-size: 18px;
+    }
+    
+    #dashboard-github-text{
+        font-size: 18px;
+    }
+    
+    .main-body{
+        padding-bottom: 50px;
+    }
+    
+    #main-heading{
+        font-size: 60px;
+        padding-top: 20px;
+    }
+    
+    #sec-heading{
+        font-size: 18px;
+    }
+    
+    #third-heading{
+        font-size: 14px;
+        padding: 15px 15px 25px;
+    }
+    
+    #homepage-button{
+        padding: 5px 30px 9px 30px;
+        font-size: 16px;
+    }
+    
+    .footer{
+        padding: 25px 20px 0px 20px;
+    }
+}
+
+@media (max-width: 400px) {
+    .dashboard{
+        padding: 0px 15px;
+    }
+    
+    #dashboard-logo{
+        width: 45px;
+    }
+    
+    #dashboard-text{
+        font-size: 22px;
+    }
+    
+    #main-heading{
+        font-size: 48px;
+    }
+    
+    #sec-heading{
+        font-size: 16px;
+    }
+    
+    #third-heading{
+        font-size: 13px;
+    }
+    
+    #homepage-button{
+        padding: 5px 25px 9px 25px;
+        font-size: 15px;
+    }
+    
+    .footer{
+        padding: 25px 15px 0px 15px;
+    }
+}
