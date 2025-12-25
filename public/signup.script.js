@@ -24,11 +24,11 @@ function signup(){
     const errorDiv = document.querySelector(".signup-error");
     errorDiv.setAttribute("style", "display: none");
 
+    signupButton.textContent = "";
     const imgElement = document.createElement("img");
     imgElement.src = "./images/loading.gif";
     imgElement.style.width = "45px";
     signupButton.style.backgroundColor = "black";
-    signupButton.textContent = "";
     signupButton.appendChild(imgElement);
 
     const credentials = {

@@ -23,12 +23,12 @@ function login(){
 
     const errorDiv = document.querySelector(".login-error");
     errorDiv.setAttribute("style", "display: none");
-
+    
+    loginButton.textContent = "";
     const imgElement = document.createElement("img");
     imgElement.src = "./images/loading.gif";
     imgElement.style.width = "45px";
     loginButton.style.backgroundColor = "black";
-    loginButton.textContent = "";
     loginButton.appendChild(imgElement);
 
     const credentials = {
