@@ -97,7 +97,7 @@ function shrink(){
                         shrinkButton.style.backgroundColor = "";
                         
                         const linkElement = document.querySelector("#shrinked-url");
-                        linkElement.href = `http://localhost:3000/${response.urlkey}`;
+                        linkElement.href = `https://shrinks-it.vercel.app/${response.urlkey}`;
                         linkElement.textContent = `http://localhost:3000/${response.urlkey}`;
                         URLdiv.setAttribute("style", "display: flex;");
                     } else{
