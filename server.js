@@ -36,4 +36,4 @@ app.use("/", redirect);
 app.use("/", qrcode);
 app.use("/", logout);
 
-app.listen(3000);
+module.exports = app;
