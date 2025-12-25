@@ -24,12 +24,8 @@ function signup(){
     const errorDiv = document.querySelector(".signup-error");
     errorDiv.setAttribute("style", "display: none");
 
-    signupButton.textContent = "";
-    const imgElement = document.createElement("img");
-    imgElement.src = "./images/loading.gif";
-    imgElement.style.width = "45px";
+    signupButton.textContent = ". . .";
     signupButton.style.backgroundColor = "black";
-    signupButton.appendChild(imgElement);
 
     const credentials = {
         username: username,
@@ -56,7 +52,6 @@ function signup(){
             } else{
                 signupButton.style.backgroundColor = "";
                 signupButton.textContent = "login";
-                imgElement.remove();
 
                 const errorDiv = document.querySelector(".login-error");
                 errorDiv.children[1].children[0].textContent = response.msg;
