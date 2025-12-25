@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title>
+            Generate QR Code for your URL's
+        </title>
+        <link rel="icon" type="image/x-icon" href="./images/favicon.png">
+        <link rel="stylesheet" href="./qrcode.style.css">
+    </head>
+    <body>
+        <div class="main-body">
+            <input id="newqr-input" type="text" placeholder="paste yout link here">
+            <span id="newqr-button">generate</span>
+        </div>
+        <div class="error">
+            <div>
+                <img id="error-img" src="./images/mark.png" width="15px">
+            </div>
+            <div>
+                <p id="error-text">error msg</p>
+            </div>
+        </div>
+        <div class="qrcode-body">
+            <div class="qrcode">
+                <img id="qrcode-img" src="" width="280px">
+            </div>
+            <div class="download">
+                <h1 id="download-button">
+                    <a id="download-button-text" href="" download="qrcode.png">
+                        DOWNLAOD
+                    </a>
+                </h1>
+            </div>
+        </div>
+        <div class="no-access">
+                <div id="no-access-img">
+                    <img src="./images/access-denied.png" width="250px">
+                </div>
+                <div id="no-access-text">
+                    Kindly sign-up or login to access this page.
+                </div>
+            </div>
+        <script src="./qrcode.script.js"></script>
+    </body>
+</html>

@@ -1,0 +1,233 @@
+/* *{
+    font-family: "apple-system" ,"BlinkMacSystemFont" ,"Segoe UI", "Roboto", "Oxygen-Sans", "Ubuntu,Cantarell" , "Helvetica Neue" , "sans-serif";
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+.main-body{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    margin: 150px 350px 100px 300px;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.signup-form{
+    padding: 25px 20px 10px 30px;
+}
+
+#signup-header{
+    margin: 0px;
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#username-tab{
+    padding-bottom: 5px;
+}
+
+#username-input{
+    font-size: 15px;
+    font-weight: 250;
+    height: 40px;
+    width: 360px;
+    padding-left: 20px;
+    border: 1px solid rgba(128, 128, 128, 0.6);
+    border-radius: 5px;
+    outline: none;
+    box-shadow: none;
+}
+#username-input:focus{
+    border-color: #387ed1;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.10);
+}
+
+#email-tab{
+    padding-bottom: 5px;
+}
+
+#email-input{
+    font-size: 15px;
+    font-weight: 250;
+    height: 40px;
+    width: 360px;
+    padding-left: 20px;
+    border: 1px solid rgba(128, 128, 128, 0.6);
+    border-radius: 5px;
+    outline: none;
+    box-shadow: none;
+}
+
+#email-input:focus{
+    border-color: #387ed1;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.10);
+}
+
+#password-input{
+    font-size: 15px;
+    font-weight: 250;
+    height: 40px;
+    width: 360px;
+    padding-left: 20px;
+    border: 1px solid rgba(128, 128, 128, 0.6);
+    border-radius: 5px;
+    outline: none;
+    box-shadow: none;
+}
+
+#password-input:focus{
+    border-color: #387ed1;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.10);
+}
+
+#signup-button{
+    background-color: #387ed1;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    margin: 10px 0px 0px 0px;
+    padding-bottom: 5px;
+    cursor: pointer;
+}
+
+#signup-button:hover{
+    background-color: black;
+    color: white;
+}
+
+.login-error{
+    display: none;
+}
+
+#login-error-img{
+    padding-top: 9px;
+    padding-right: 5px;
+}
+
+#login-error-text{
+    margin: 0px;
+    padding-top: 6px;
+    font-weight: 500;
+    color: red;
+} */
+
+*{
+    font-family: "apple-system" ,"BlinkMacSystemFont" ,"Segoe UI", "Roboto", "Oxygen-Sans", "Ubuntu,Cantarell" , "Helvetica Neue" , "sans-serif";
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+.main-body{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    margin: 150px 350px 100px 300px;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.signup-form{
+    padding: 25px 20px 10px 30px;
+}
+
+#signup-header{
+    margin: 0px;
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#username-tab{
+    padding-bottom: 5px;
+}
+
+#username-input{
+    font-size: 15px;
+    font-weight: 250;
+    height: 40px;
+    width: 360px;
+    padding-left: 20px;
+    border: 1px solid rgba(128, 128, 128, 0.6);
+    border-radius: 5px;
+    outline: none;
+    box-shadow: none;
+}
+#username-input:focus{
+    border-color: #387ed1;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.10);
+}
+
+#email-tab{
+    padding-bottom: 5px;
+}
+
+#email-input{
+    font-size: 15px;
+    font-weight: 250;
+    height: 40px;
+    width: 360px;
+    padding-left: 20px;
+    border: 1px solid rgba(128, 128, 128, 0.6);
+    border-radius: 5px;
+    outline: none;
+    box-shadow: none;
+}
+
+#email-input:focus{
+    border-color: #387ed1;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.10);
+}
+
+#password-input{
+    font-size: 15px;
+    font-weight: 250;
+    height: 40px;
+    width: 360px;
+    padding-left: 20px;
+    border: 1px solid rgba(128, 128, 128, 0.6);
+    border-radius: 5px;
+    outline: none;
+    box-shadow: none;
+}
+
+#password-input:focus{
+    border-color: #387ed1;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.10);
+}
+
+#signup-button{
+    background-color: #387ed1;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    margin: 10px 0px 0px 0px;
+    padding-bottom: 5px;
+    cursor: pointer;
+}
+
+#signup-button:hover{
+    background-color: black;
+    color: white;
+}
+
+.login-error{
+    display: none;
+}
+
+#login-error-img{
+    padding-top: 9px;
+    padding-right: 5px;
+}
+
+#login-error-text{
+    margin: 0px;
+    padding-top: 6px;
+    font-weight: 500;
+    color: red;
+}

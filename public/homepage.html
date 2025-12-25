@@ -1,0 +1,107 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            Shrink your long urls with EASE!
+        </title>
+        <link rel="icon" type="image/x-icon" href="./images/favicon.png">
+        <link rel="stylesheet" href="./homepage.style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="dashboard">
+            <div class="dashboard-branding">
+                <div id="dashboard-branding-logo">
+                    <img src="./images/link.gif" width="40px">
+                </div>
+                <div id="dashboard-branding-text">
+                    <h1>shrink-it!</h1>
+                </div>
+                <div class="dashboard-linkedin">
+                    <div id="dashboard-linkedin-logo">
+                        <img src="./images/linkedin.png" width="18px">
+                    </div>
+                    <a id="dashboard-linkedin-text" href="https://www.linkedin.com/in/pradumya-gupta/" target="_blank">
+                        LinkedIn
+                    </a>
+                    </div>
+                <div class="dashboard-github">
+                    <div id="dashboard-github-logo">
+                        <img src="./images/github.png" width="18px">
+                    </div>
+                    <a id="dashboard-github-text" href="https://github.com/pradumya999" target="_blank">
+                        Github
+                    </a>
+                </div>
+            </div>
+            <div class="dashboard-buttons">
+            <div class="anonymous">
+                <div class="signUp-button">
+                    <div id="signUp-button-text">
+                        <a id="signUp-button-text" href="./signup.html" target="_self">sign-up</a>
+                    </div>
+                </div>
+                <div class="login-button">
+                    <a id="login-button-text" href="./login.html" target="_self">
+                        login
+                    </a>
+                    <div id="login-button-img">
+                        <img src="./images/login.png" width="18px">
+                    </div>
+                </div>
+            </div>
+            <div class="signed-in">
+                <div class="logout-button">
+                    <div id="logout-button-text">
+                        logout
+                    </div>
+                    <div id="logout-button-img">
+                        <img src="./images/logout.png" width="16px">
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="main-body">
+            <h1 id="main-heading">Shrink-it</h1>
+            <div class="user-input-tab">
+                <input id="newURL-input" type="text" placeholder="paste your link here">
+                <span id="newURL-button">shrink</span>
+                <div class="error">
+                    <div>
+                        <img id="error-img" src="./images/mark.png" width="18px">
+                    </div>
+                    <div>
+                        <p id="error-text">error msg</p>
+                    </div>
+                </div>
+                <div class="short-url">
+                    <div class="response">
+                        <div id="url-text">
+                            url:
+                        </div>
+                        <div id="url-link">
+                            <a id="shrinked-url" href="" target="_blank">shrink-it.vercel.app/1234567890</a>
+                        </div>
+                    </div>
+                    <div class="functions">
+                        <div>
+                            <img id="copy-url-img" title="copy url" src="./images/link.png" width="25px">
+                        </div>
+                        <div class="qrcode">
+                            <a id="qrcode-text" class="qr-code" href="./qrcode.html" target="_blank">
+                            <div id="qrcode-img" title="get qr code for your url">
+                                <img src="./images/qr-code.png" width="25px">
+                            </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="users-urls">
+            
+        </div>
+        <script type="module" src="./homepage.script.js"></script>
+    </body>
+</html>

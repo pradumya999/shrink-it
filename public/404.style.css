@@ -1,0 +1,327 @@
+/* *{
+    font-family: "apple-system" ,"BlinkMacSystemFont" ,"Segoe UI", "Roboto", "Oxygen-Sans", "Ubuntu,Cantarell" , "Helvetica Neue" , "sans-serif";
+}
+
+body{
+    margin: 0px;
+    background-color: whitesmoke;
+}
+
+.dashboard{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 150px;
+    box-shadow: 2px 1px 2px #eee;
+    background-color: white;
+}
+
+.branding{
+    display: flex;
+}
+
+#dashboard-logo{
+    padding: 10px 0px;
+    cursor: pointer;
+}
+
+#dashboard-text{
+    line-height: 0px;
+    font-size: 35px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+.links{
+    display: flex;
+}
+
+.dashboard-linkedin{
+    display: flex;
+    opacity: 0.75;
+    cursor: pointer;
+}
+
+#dashboard-linkedin-logo{
+    margin: 40px 0px 35px 50px;
+}
+
+#dashboard-linkedin-text{
+    padding-left: 7px;
+    margin: 35px 0px 35px 0px;
+    font-size: 25px;
+    font-weight: 750;
+    text-decoration: none;
+    color: black;
+}
+
+.dashboard-linkedin:hover{
+    opacity: 1;
+    text-decoration: underline;
+}
+
+.dashboard-github{
+    display: flex;
+    opacity: 0.75;
+    cursor: pointer;
+}
+
+#dashboard-github-logo{
+    margin: 40px 0px 35px 25px;
+}
+
+#dashboard-github-text{
+    padding-left: 7px;
+    margin: 35px 0px 35px 0px;
+    font-size: 25px;
+    font-weight: 750;
+    text-decoration: none;
+    color: black;
+}
+
+.dashboard-github:hover{
+    opacity: 1;
+    text-decoration: underline;
+}
+
+.main-body{
+    text-align: center;
+    padding-bottom: 75px;
+}
+
+#main-heading{
+    line-height: 0px;
+    font-size: 150px;
+    padding-top: 25px;
+}
+
+#sec-heading{
+    line-height: 0px;
+    font-size: 25px;
+    opacity: 0.75;
+}
+
+#third-heading{
+    line-height: 0px;
+    font-size: 18px;
+    padding: 15px 0px 30px;
+    font-weight: 250;
+    opacity: 0.5;
+    margin: 0px;
+}
+
+#homepage-button{
+    background-color: #387ed1;
+    color: white;
+    text-decoration: none;
+    padding: 5px 50px 9px 50px;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
+
+#homepage-button:hover{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 25px 175px 0px 175px;
+    opacity: 0.65;
+    background-color: white;
+    box-shadow: 0 -1px 2px #eee;
+}
+
+#checkLink-img{
+    padding-left: 15px;
+}
+
+#checkLink-text{
+    line-height: 0px;
+}
+
+#newLink-img{
+    padding-left: 0px;
+}
+
+#newLink-text{
+    line-height: 0px;
+    padding-right: 0px;
+}
+
+#contact-img{
+    padding-left: 15px;
+}
+
+#contact-text{
+    line-height: 0px;
+    text-align: center;
+} */
+
+*{
+    font-family: "apple-system" ,"BlinkMacSystemFont" ,"Segoe UI", "Roboto", "Oxygen-Sans", "Ubuntu,Cantarell" , "Helvetica Neue" , "sans-serif";
+}
+
+body{
+    margin: 0px;
+    background-color: whitesmoke;
+}
+
+.dashboard{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 150px;
+    box-shadow: 2px 1px 2px #eee;
+    background-color: white;
+}
+
+.branding{
+    display: flex;
+}
+
+#dashboard-logo{
+    padding: 10px 0px;
+    cursor: pointer;
+}
+
+#dashboard-text{
+    line-height: 0px;
+    font-size: 35px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+.links{
+    display: flex;
+}
+
+.dashboard-linkedin{
+    display: flex;
+    opacity: 0.75;
+    cursor: pointer;
+}
+
+#dashboard-linkedin-logo{
+    margin: 40px 0px 35px 50px;
+}
+
+#dashboard-linkedin-text{
+    padding-left: 7px;
+    margin: 35px 0px 35px 0px;
+    font-size: 25px;
+    font-weight: 750;
+    text-decoration: none;
+    color: black;
+}
+
+.dashboard-linkedin:hover{
+    opacity: 1;
+    text-decoration: underline;
+}
+
+.dashboard-github{
+    display: flex;
+    opacity: 0.75;
+    cursor: pointer;
+}
+
+#dashboard-github-logo{
+    margin: 40px 0px 35px 25px;
+}
+
+#dashboard-github-text{
+    padding-left: 7px;
+    margin: 35px 0px 35px 0px;
+    font-size: 25px;
+    font-weight: 750;
+    text-decoration: none;
+    color: black;
+}
+
+.dashboard-github:hover{
+    opacity: 1;
+    text-decoration: underline;
+}
+
+.main-body{
+    text-align: center;
+    padding-bottom: 75px;
+}
+
+#main-heading{
+    line-height: 0px;
+    font-size: 150px;
+    padding-top: 25px;
+}
+
+#sec-heading{
+    line-height: 0px;
+    font-size: 25px;
+    opacity: 0.75;
+}
+
+#third-heading{
+    line-height: 0px;
+    font-size: 18px;
+    padding: 15px 0px 30px;
+    font-weight: 250;
+    opacity: 0.5;
+    margin: 0px;
+}
+
+#homepage-button{
+    background-color: #387ed1;
+    color: white;
+    text-decoration: none;
+    padding: 5px 50px 9px 50px;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
+
+#homepage-button:hover{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 25px 175px 0px 175px;
+    opacity: 0.65;
+    background-color: white;
+    box-shadow: 0 -1px 2px #eee;
+}
+
+#checkLink-img{
+    padding-left: 15px;
+}
+
+#checkLink-text{
+    line-height: 0px;
+}
+
+#newLink-img{
+    padding-left: 0px;
+}
+
+#newLink-text{
+    line-height: 0px;
+    padding-right: 0px;
+}
+
+#contact-img{
+    padding-left: 15px;
+}
+
+#contact-text{
+    line-height: 0px;
+    text-align: center;
+}
