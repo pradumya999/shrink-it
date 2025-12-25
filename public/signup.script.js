@@ -21,31 +21,47 @@ function signup(){
         return;
     }
 
+    const errorDiv = document.querySelector(".signup-error");
+    errorDiv.setAttribute("style", "display: none");
+
+    const imgElement = document.createElement("img");
+    imgElement.src = "./images/loading.gif";
+    imgElement.style.width = "45px";
+    signupButton.style.backgroundColor = "black";
+    signupButton.textContent = "";
+    signupButton.appendChild(imgElement);
+
     const credentials = {
         username: username,
         email: email,
         password: password
     }
 
-    fetch("/signup", {
+    const fetchPromise = fetch("/signup", {
         method: 'POST',
         credentials: 'include',
         headers: {
         'Content-Type': 'application/json'
-      },
-      body: JSON.stringify(credentials)
+        },
+        body: JSON.stringify(credentials)
     })
-    .then(async (response)=>{
-        response = await response.json();
-        if(response.check === true) window.location.href = "./homepage.html";
-        else{
-            const errorDiv = document.querySelector(".login-error");
-            errorDiv.children[1].children[0].textContent = response.msg;
-            errorDiv.setAttribute("style", "display: flex");
-        }
-    })
-    .catch((error)=>{
-        alert(error.msg);
+    .then(response=>response.json());
+
+    const delayPromise = new Promise(resolve=>setTimeout(resolve, 1500));
+
+    Promise.all([fetchPromise, delayPromise])
+        .then(([response])=>{
+            if(response.check === true){
+                window.location.href = "./homepage.html";
+            } else{
+                signupButton.style.backgroundColor = "";
+                signupButton.textContent = "login";
+                imgElement.remove();
+
+                const errorDiv = document.querySelector(".login-error");
+                errorDiv.children[1].children[0].textContent = response.msg;
+                errorDiv.setAttribute("style", "display: flex");
+            }
     });
 };
 

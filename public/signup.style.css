@@ -99,16 +99,16 @@ body{
     color: white;
 }
 
-.login-error{
+.signup-error{
     display: none;
 }
 
-#login-error-img{
+#signup-error-img{
     padding-top: 9px;
     padding-right: 5px;
 }
 
-#login-error-text{
+#signup-error-text{
     margin: 0px;
     padding-top: 6px;
     font-weight: 500;
