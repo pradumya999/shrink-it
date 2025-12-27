@@ -51,9 +51,9 @@ function signup(){
                 window.location.href = "./homepage.html";
             } else{
                 signupButton.style.backgroundColor = "";
-                signupButton.textContent = "login";
+                signupButton.textContent = "sign up";
 
-                const errorDiv = document.querySelector(".login-error");
+                const errorDiv = document.querySelector(".signup-error");
                 errorDiv.children[1].children[0].textContent = response.msg;
                 errorDiv.setAttribute("style", "display: flex");
             }
