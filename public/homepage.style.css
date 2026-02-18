@@ -92,17 +92,6 @@ body{
     font-size: 20px;
 }
 
-.signUp-button:hover{
-    background-color: red;
-    color: white;
-    margin-top: 10px;
-    margin-bottom: 15px;
-    border-radius: 6px;
-    padding: 5px 3px 5px 5px;
-    opacity: 1;
-    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
-}
-
 #signUp-button-text{
     margin: 0px;
     line-height: 0px;
@@ -112,7 +101,8 @@ body{
 }
 
 #signup-button-text:hover{
-    color: white;
+    color: red;
+    text-decoration: underline;
 }
 
 #signUp-button-img{
