@@ -62,7 +62,7 @@ function generateQR(){
                 url: newURL
             }
 
-            const fetchPromise = fetch("/generateQR", {
+            const fetchPromise = fetch("/qrcode", {
                 method: 'POST',
                 credentials: 'include',
                 headers: {
