@@ -2,7 +2,7 @@ const QRcode = require("qrcode");
 const express = require("express");
 const router = express.Router();
 
-router.post("/generateQR", async function(req, res){
+router.post("/qrcode", async function(req, res){
     try{
         const url = req.body.url;
         if (typeof url !== 'string') {
